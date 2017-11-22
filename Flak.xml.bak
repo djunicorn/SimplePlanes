@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="Flak" url="" theme="Custom" size="5.5,3.000003,2.5" boundsMin="-2.75,1.733354,-1.25" xmlVersion="6">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Cockpit-1" position="1.192093E-07,4.483356,-0.25" rotation="0,0,0" drag="0.1278034,0.1278034,0.01059081,0.01059081,0.2579999,0.258" materials="7,0">
+        <Cockpit.State primaryCockpit="True" />
+      </Part>
+      <Part id="2" partType="Block-1" position="1.192093E-07,3.983356,-0.5" rotation="0,0,0" drag="0.012,0.012,0.1040699,0.1040699,0.254,0.254" materials="0">
+        <AdaptiveBlock.State state="16732341" />
+      </Part>
+      <Part id="3" partType="Block-1" position="1.192093E-07,3.983356,2.980232E-08" rotation="0,0,0" drag="0.258,0.258,0.004442982,0.004442982,0.2539999,0.254" materials="0">
+        <AdaptiveBlock.State state="11227189" />
+      </Part>
+      <Part id="4" partType="Fuselage-Body-1" position="0.2500001,3.670856,2.980232E-08" rotation="0,90,0" drag="0.007999999,0.007999999,0.1366726,0.1366726,0.008,0.01" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.25,0.25" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="5" partType="Rocket-1" position="0.25,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="1" firingDelay="0.1" finMode="Static" selfDestructTimer="1.5" />
+      </Part>
+      <Part id="6" partType="Rocket-1" position="0.25,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="1" firingDelay="0.1" finMode="Static" selfDestructTimer="1.6" />
+      </Part>
+      <Part id="7" partType="Rocket-1" position="0.25,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="1" firingDelay="0.1" finMode="Static" selfDestructTimer="1.7" />
+      </Part>
+      <Part id="8" partType="Rocket-1" position="0.25,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="1" firingDelay="0.1" finMode="Static" selfDestructTimer="1.4" />
+      </Part>
+      <Part id="9" partType="Rocket-1" position="0.25,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="1" firingDelay="0.1" finMode="Static" selfDestructTimer="1.3" />
+      </Part>
+      <Part id="10" partType="Block-1" position="1.192093E-07,3.983356,-1" rotation="0,0,0" drag="0.009039856,0.009039856,0.004518451,0.004518451,0.2539999,0.254" materials="0">
+        <AdaptiveBlock.State state="6135888" />
+      </Part>
+      <Part id="11" partType="Block-1" position="1.192093E-07,3.483356,-1" rotation="0,0,0" drag="0.2579609,0.2579609,0.0050048,0.0050048,0.2539999,0.254" materials="0">
+        <AdaptiveBlock.State state="217104" />
+      </Part>
+      <Part id="13" partType="Block-1" position="1.192093E-07,2.483356,-0.5" rotation="0,0,0" drag="0.01127859,0.01127859,0.258,0.258,0.258,0.258" materials="0">
+        <AdaptiveBlock.State state="16714272" />
+      </Part>
+      <Part id="17" partType="Block-1" position="1.192093E-07,1.983353,1" rotation="0,0,0" drag="0.254,0.254,0.254,0.254,0.008,0.008" materials="0">
+        <AdaptiveBlock.State state="15986725" />
+      </Part>
+      <Part id="18" partType="Block-1" position="0.5,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.008160001,0.012" materials="0">
+        <AdaptiveBlock.State state="15790084" />
+      </Part>
+      <Part id="19" partType="Block-1" position="-0.4999999,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.012,0.008160001" materials="0">
+        <AdaptiveBlock.State state="15790081" />
+      </Part>
+      <Part id="20" partType="Block-1" position="1.192093E-07,2.483356,-8.940697E-08" rotation="0,0,0" drag="0.0110784,0.0110784,0.258,0.258,0.258,0.258" materials="0">
+        <AdaptiveBlock.State state="16711680" />
+      </Part>
+      <Part id="21" partType="Block-1" position="1.192093E-07,2.483356,-1" rotation="0,0,0" drag="0.001640827,0.001640827,0.25,0.25,0.004,0.004" materials="0">
+        <AdaptiveBlock.State state="16250165" />
+      </Part>
+      <Part id="22" partType="Block-1" position="1.192093E-07,2.483356,0.4999997" rotation="0,0,0" drag="0.01112,0.01112,0.25696,0.25696,0.258,0.258" materials="0">
+        <AdaptiveBlock.State state="16711744" />
+      </Part>
+      <Part id="23" partType="Block-1" position="1.192093E-07,2.483356,1" rotation="0,0,0" drag="0.262,0.262,0.00216,0.00216,0.2539999,0.254" materials="0">
+        <AdaptiveBlock.State state="11444362" />
+      </Part>
+      <Part id="24" partType="Fuselage-Body-1" position="0.1250001,3.670856,2.980232E-08" rotation="0,270,0" drag="0,0,0,0,0,0" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.25,0.25" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="25" partType="Rocket-1" position="0.1250002,3.559402,0.3500001" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="2" firingDelay="0.1" finMode="Static" selfDestructTimer="1.3" />
+      </Part>
+      <Part id="26" partType="Rocket-1" position="0.1250002,3.559402,0.3500001" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="2" firingDelay="0.1" finMode="Static" selfDestructTimer="1.4" />
+      </Part>
+      <Part id="27" partType="Rocket-1" position="0.1250002,3.559402,0.3500001" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="2" firingDelay="0.1" finMode="Static" selfDestructTimer="1.5" />
+      </Part>
+      <Part id="28" partType="Rocket-1" position="0.1250002,3.559402,0.3500001" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="2" firingDelay="0.1" finMode="Static" selfDestructTimer="1.6" />
+      </Part>
+      <Part id="29" partType="Rocket-1" position="0.1250002,3.559402,0.3500001" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="2" firingDelay="0.1" finMode="Static" selfDestructTimer="1.7" />
+      </Part>
+      <Part id="30" partType="Fuselage-Body-1" position="1.192093E-07,3.670856,2.980232E-08" rotation="0,90,0" drag="0,0,0,0,0,0" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.25,0.25" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="31" partType="Rocket-1" position="1.192093E-07,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="3" firingDelay="0.1" finMode="Static" selfDestructTimer="1.3" />
+      </Part>
+      <Part id="32" partType="Rocket-1" position="1.192093E-07,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="3" firingDelay="0.1" finMode="Static" selfDestructTimer="1.4" />
+      </Part>
+      <Part id="33" partType="Rocket-1" position="1.192093E-07,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="3" firingDelay="0.1" finMode="Static" selfDestructTimer="1.5" />
+      </Part>
+      <Part id="34" partType="Rocket-1" position="1.192093E-07,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="3" firingDelay="0.1" finMode="Static" selfDestructTimer="1.6" />
+      </Part>
+      <Part id="35" partType="Rocket-1" position="1.192093E-07,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="3" firingDelay="0.1" finMode="Static" selfDestructTimer="1.7" />
+      </Part>
+      <Part id="37" partType="JointRotator-1" position="1.192093E-07,2.983356,-1" rotation="0,0,0" drag="0.2563737,0.2563737,0.00304,0.00304,0.2539999,0.254" materials="0,3,10">
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="VTOL" />
+        <JointRotator.State range="90" speed="0.5" />
+      </Part>
+      <Part id="38" partType="Block-1" position="-0.9999999,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.012,0.008758401" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="39" partType="Block-1" position="-1.5,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.012,0.009220865" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="40" partType="Block-1" position="-2,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.012,0.009562988" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="41" partType="Block-1" position="-2.5,1.983353,1" rotation="0,0,0" drag="0.262,0.262,0.258,0.258,0.262,0.009826669" materials="0">
+        <AdaptiveBlock.State state="3158016" />
+      </Part>
+      <Part id="42" partType="Block-1" position="1,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.0087584,0.012" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="43" partType="Block-1" position="1.5,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.009220865,0.012" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="44" partType="Block-1" position="2,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.009562989,0.012" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="45" partType="Block-1" position="2.5,1.983353,1" rotation="0,0,0" drag="0.258,0.258,0.254,0.254,0.009826668,0.262" materials="0">
+        <AdaptiveBlock.State state="12632064" />
+      </Part>
+      <Part id="46" partType="Block-1" position="0.5000001,2.483356,-1" rotation="0,0,0" drag="0.1939421,0.1939421,0.254,0.254,0.006,0.012" materials="0">
+        <AdaptiveBlock.State state="15791108" />
+      </Part>
+      <Part id="47" partType="Block-1" position="1,2.483356,-1" rotation="0,0,0" drag="0.1964193,0.1964193,0.254,0.254,0.0072144,0.012" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="48" partType="Block-1" position="1.5,2.483356,-1" rotation="0,0,0" drag="0.1996897,0.1996897,0.258,0.258,0.007937153,0.262" materials="0">
+        <AdaptiveBlock.State state="12632064" />
+      </Part>
+      <Part id="49" partType="Block-1" position="-0.4999999,2.483356,-1" rotation="0,0,0" drag="0.1939421,0.1939421,0.254,0.254,0.012,0.006" materials="0">
+        <AdaptiveBlock.State state="15790337" />
+      </Part>
+      <Part id="50" partType="Block-1" position="-0.9999999,2.483356,-1" rotation="0,0,0" drag="0.1964193,0.1964193,0.254,0.254,0.012,0.0072144" materials="0">
+        <AdaptiveBlock.State state="15790080" />
+      </Part>
+      <Part id="51" partType="Block-1" position="-1.5,2.483356,-1" rotation="0,0,0" drag="0.1996852,0.1996852,0.258,0.258,0.262,0.007937152" materials="0">
+        <AdaptiveBlock.State state="3158016" />
+      </Part>
+      <Part id="52" partType="Fuselage-Body-1" position="-0.1249999,3.670856,2.980232E-08" rotation="0,270,0" drag="0,0,0,0,0,0" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.25,0.25" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="53" partType="Rocket-1" position="-0.1249999,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="4" firingDelay="0.1" finMode="Static" selfDestructTimer="1.5" />
+      </Part>
+      <Part id="54" partType="Rocket-1" position="-0.1249994,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="4" firingDelay="0.1" finMode="Static" selfDestructTimer="1.3" />
+      </Part>
+      <Part id="55" partType="Rocket-1" position="-0.1249999,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="4" firingDelay="0.1" finMode="Static" selfDestructTimer="1.4" />
+      </Part>
+      <Part id="56" partType="Rocket-1" position="-0.1249994,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="4" firingDelay="0.1" finMode="Static" selfDestructTimer="1.6" />
+      </Part>
+      <Part id="57" partType="Rocket-1" position="-0.1249999,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="4" firingDelay="0.1" finMode="Static" selfDestructTimer="1.7" />
+      </Part>
+      <Part id="58" partType="Fuselage-Body-1" position="-0.2499999,3.670856,2.980232E-08" rotation="0,270,0" drag="0.008,0.008,0.1366726,0.1366726,0.01,0.008" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="0.25,0.25" rearScale="0.25,0.25" offset="0,0,0.25" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="0,0,0,0,0,0,0,0" />
+      </Part>
+      <Part id="59" partType="Rocket-1" position="-0.2499998,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="5" firingDelay="0.1" finMode="Static" selfDestructTimer="1.5" />
+      </Part>
+      <Part id="60" partType="Rocket-1" position="-0.2499998,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="5" firingDelay="0.1" finMode="Static" selfDestructTimer="1.3" />
+      </Part>
+      <Part id="61" partType="Rocket-1" position="-0.2499998,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="5" firingDelay="0.1" finMode="Static" selfDestructTimer="1.4" />
+      </Part>
+      <Part id="62" partType="Rocket-1" position="-0.2499998,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="5" firingDelay="0.1" finMode="Static" selfDestructTimer="1.6" />
+      </Part>
+      <Part id="63" partType="Rocket-1" position="-0.2499998,3.559402,0.3499999" rotation="0,0,0" drag="0,0,0,0,0,0" materials="13,14,14,14" scale="0.7,0.7,0.7">
+        <RocketWeapon.State activationGroup="5" firingDelay="0.1" finMode="Static" selfDestructTimer="1.7" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="2" partB="1" attachPointsA="2" attachPointsB="2" />
+      <Connection partA="3" partB="1" attachPointsA="2" attachPointsB="1" />
+      <Connection partA="3" partB="2" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="10" partB="2" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="30" partB="3" attachPointsA="3" attachPointsB="3" />
+      <Connection partA="5" partB="4" attachPointsA="0" attachPointsB="4" />
+      <Connection partA="9" partB="4" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="8" partB="4" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="6" partB="4" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="7" partB="4" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="24" partB="4" attachPointsA="1" attachPointsB="1" />
+      <Connection partA="11" partB="10" attachPointsA="2" attachPointsB="3" />
+      <Connection partA="37" partB="11" attachPointsA="0" attachPointsB="3" />
+      <Connection partA="21" partB="13" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="20" partB="13" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="18" partB="17" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="19" partB="17" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="23" partB="17" attachPointsA="3" attachPointsB="2" />
+      <Connection partA="42" partB="18" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="38" partB="19" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="22" partB="20" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="21" partB="37" attachPointsA="2" attachPointsB="3" />
+      <Connection partA="46" partB="21" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="49" partB="21" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="23" partB="22" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="27" partB="24" attachPointsA="0" attachPointsB="4" />
+      <Connection partA="25" partB="24" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="26" partB="24" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="28" partB="24" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="29" partB="24" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="30" partB="24" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="33" partB="30" attachPointsA="0" attachPointsB="4" />
+      <Connection partA="31" partB="30" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="32" partB="30" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="34" partB="30" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="35" partB="30" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="52" partB="30" attachPointsA="1" attachPointsB="1" />
+      <Connection partA="39" partB="38" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="40" partB="39" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="41" partB="40" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="43" partB="42" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="44" partB="43" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="45" partB="44" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="47" partB="46" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="48" partB="47" attachPointsA="5" attachPointsB="4" />
+      <Connection partA="50" partB="49" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="51" partB="50" attachPointsA="4" attachPointsB="5" />
+      <Connection partA="53" partB="52" attachPointsA="0" attachPointsB="4" />
+      <Connection partA="54" partB="52" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="55" partB="52" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="56" partB="52" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="57" partB="52" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="58" partB="52" attachPointsA="1" attachPointsB="0" />
+      <Connection partA="59" partB="58" attachPointsA="0" attachPointsB="4" />
+      <Connection partA="60" partB="58" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="61" partB="58" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="62" partB="58" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="63" partB="58" attachPointsA="0" attachPointsB="2" />
+    </Connections>
+    <Bodies>
+      <Body partIds="1,2,3,30,24,4,52,58,10,11" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="5" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="6" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="7" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="8" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="9" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="13,21,37,46,47,48,49,50,51,20,22,23,17,18,42,43,44,45,19,38,39,40,41" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="25" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="26" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="27" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="28" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="29" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="31" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="32" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="33" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="34" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="35" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="53" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="54" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="55" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="56" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="57" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="59" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="60" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="61" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="62" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="63" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="E9E9E9" r="0.15" m="0.5" s="0.7" />
+    <Material color="000000" r="0.3" m="0.5" s="0.83" />
+    <Material color="001F7F" r="0.3" m="0.5" s="0.83" />
+    <Material color="AA2A00" r="0.15" m="0.5" s="0.7" />
+    <Material color="3F3F3F" r="0" m="0.65" s="0.08" />
+    <Material color="5C0000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="FFF0F0" r="0" m="0.65" s="0.08" />
+    <Material color="FF0F0F" r="0" m="0.65" s="0.08" />
+    <Material color="AAAAAA" r="0" m="0.65" s="0.08" />
+    <Material color="3F3F3F" r="0.15" m="0.5" s="0.7" />
+    <Material color="ABABAB" r="0" m="0.65" s="0.08" />
+    <Material color="446677" r="0" m="0.65" s="0.08" />
+    <Material color="0B0B0B" r="0" m="0.65" s="0.08" />
+    <Material color="000B17" r="0" m="0.65" s="0.08" />
+    <Material color="000000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="1E1E1E" r="0" m="0.65" s="0.08" />
+    <Material color="D0D0D0" r="0" m="0.65" s="0.08" />
+  </Theme>
+</Aircraft>
