@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="H.1" url="" theme="Custom" size="3.819983,2.004038,4.949055" boundsMin="-1.909991,1.720854,-2.371094" xmlVersion="6">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Cockpit-1" position="1.862645E-09,3.030829,1.386719" rotation="0,0,0" drag="0.07190169,0.07190169,0.008347841,0.008347841,0.07250001,0.07250001" materials="1,12">
+        <Cockpit.State primaryCockpit="True" />
+      </Part>
+      <Part id="2" partType="Fuselage-Body-1" position="1.862645E-09,2.640204,-0.1210935" rotation="0,0,0" drag="0.1183727,0.1183727,0.557131,0.557131,1.442505,1.440422" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.5,1.5" rearScale="1,1" offset="0,0,6" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="2,2,2,2,2,2,2,2" />
+      </Part>
+      <Part id="3" partType="Fuselage-Cone-1" position="1.862645E-09,2.640204,1.878906" rotation="0,180,0" drag="0.1901309,0.1901309,0.35683,0.35683,0.452337,0.4523279" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1.5,1.5" rearScale="0,0" offset="0,0,2" deadWeight="294.8354" buoyancy="0" fuelPercentage="0" cornerTypes="2,2,2,2,2,2,2,2" />
+      </Part>
+      <Part id="4" partType="Fuselage-Cone-1" position="1.862645E-09,2.640204,-1.996094" rotation="0,-5.008956E-06,180" drag="0.02230001,0.02230001,0.09588643,0.09588643,0.1889887,0.1889888" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,1" rearScale="0,0" offset="0,0,1.5" deadWeight="0" buoyancy="0" fuelPercentage="0" cornerTypes="2,2,2,2,2,2,2,2" />
+      </Part>
+      <Part id="5" partType="Wing-3" position="1.862645E-09,2.632392,-2.128906" rotation="0,0,0" drag="0,0,0,0,0,0" centerOfMass="0,0.4309645,0.125" materials="0,12">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="0.75" rootTrailingOffset="0.25" tipLeadingOffset="0.25" tipTrailingOffset="0.25" tipPosition="0,1,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0">
+          <ControlSurface start="0" end="2" inputId="Yaw" invert="true" maxDeflectionDegree="35" trim="off" />
+        </Wing.State>
+      </Part>
+      <Part id="8" partType="Engine-Prop-5" position="1.862645E-09,3.140204,0.667969" rotation="270,0,0" drag="0.08918508,0.08918508,0.00417952,0.00417952,0.2021463,0.2021463" centerOfMass="-2.220446E-16,-1.320132E-09,0.01107407" materials="0,12,0,0,-3">
+        <InputController.State activationGroup="0" invert="false" min="0" max="1" input="Throttle" zeroOnDeactivate="false" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="VTOL" />
+        <PropEngineAdvanced.State power="2000" maxRpm="2700" propellerCount="4" diameter="3.81" chordScale="1.333333" pitchControlType="Auto" propellerPitch="0" propellerPitchScale="1" throttleControlType="Manual" reverseRotation="False" propellerType="Cessna" />
+      </Part>
+      <Part id="9" partType="Fuselage-Body-1" position="1.862645E-09,3.030829,0.6367185" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,1" rearScale="1,1" offset="0,0,1" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="1,1,1,1,1,1,1,1" />
+      </Part>
+      <Part id="10" partType="Gyroscope-1" position="1.862645E-09,2.702704,0.1132815" rotation="0,0,0" drag="0.0024,0.0024,0.2021716,0.2021716,0.00227904,0.00188384" materials="0,3,4" disableAircraftCollisions="true">
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Pitch" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Roll" />
+        <InputController.State activationGroup="0" invert="false" min="-1" max="1" input="Yaw" zeroOnDeactivate="false" />
+        <Gyroscope.State activationGroup="None" autoOrient="true" stability="1.15" speed="1.45" yawPower="1.5" pitchRange="30" rollRange="10" />
+      </Part>
+      <Part id="11" partType="Fuselage-Body-1" position="1.862645E-09,2.843329,-0.3632815" rotation="0,0,0" drag="0.02665911,0.02665911,0.5097285,0.5097285,0.1069979,0.1070055" materials="0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Fuselage.State version="2" frontScale="1,1" rearScale="1,1" offset="0,-0.75,3" deadWeight="0" buoyancy="0" fuelPercentage="0" autoSizeOnConnected="false" cornerTypes="1,1,1,1,2,2,2,2" />
+      </Part>
+      <Part id="12" partType="Wing-3" position="0,3.632392,-2.128906" rotation="0,0,0" drag="0,0,0,0,0,0" centerOfMass="0,0.05387044,0" materials="0,0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="0.25" rootTrailingOffset="0.25" tipLeadingOffset="0.125" tipTrailingOffset="0.125" tipPosition="0,0.125,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0" />
+      </Part>
+      <Part id="13" partType="Wing-3" position="0.2734375,2.577704,0.5976565" rotation="0,0,270" drag="0,0,0,0,0,0" centerOfMass="-6.421871E-08,0.5387056,0.125" materials="0,0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Semi-Symmetric" inverted="true" wingPhysicsEnabled="true" rootLeadingOffset="0.75" rootTrailingOffset="0.25" tipLeadingOffset="0.25" tipTrailingOffset="0.25" tipPosition="0,1.25,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="1" />
+      </Part>
+      <Part id="14" partType="Wing-3" position="1.523438,2.577704,0.5976565" rotation="0,0,270" drag="0,0,0,0,0,0" centerOfMass="-6.421871E-09,0.05387057,0" materials="12,0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="true" wingPhysicsEnabled="true" rootLeadingOffset="0.25" rootTrailingOffset="0.25" tipLeadingOffset="0.125" tipTrailingOffset="0.125" tipPosition="0,0.125,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0" />
+      </Part>
+      <Part id="15" partType="Wheel-4" position="1,2.608954,0.6445315" rotation="0,180,0" drag="0.202,0.202,0.204,0.204,0.2016046,0.202" materials="0,12,0" disableAircraftCollisions="true" scale="0.7,0.6,0.7">
+        <WingLandingGear.State sensitivity="1" turningEnabled="false" flipped="false" damper="2.5" spring="2.5" />
+        <InputController.State activationGroup="0" invert="false" min="-45" max="45" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="16" partType="Wheel-3" position="0,2.483954,-1.496094" rotation="0,180,0" drag="0.2061325,0.2061325,0.2,0.2,0.206,0.203" materials="0,12,0,-3" scale="0.5,0.5,0.5">
+        <RetractableLandingGear.State sensitivity="1" turningEnabled="false" flipped="false" damper="0.7" spring="1" />
+        <InputController.State activationGroup="0" invert="false" min="-45" max="45" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="17" partType="FuelTank-1" position="0,2.655829,0.628906" rotation="0,0,0" drag="0.003,0.003,0.1875,0.1875,0.00135872,0.00113024" materials="0,3,4" scale="0.8,0.8,0.8">
+        <FuelTank.State fuel="500" capacity="500" />
+      </Part>
+      <Part id="18" partType="Wing-3" position="-0.2734375,2.577704,0.5976565" rotation="0,0,90" drag="0,0,0,0,0,0" centerOfMass="6.421871E-08,0.5387056,0.125" materials="0,0">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Semi-Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="0.75" rootTrailingOffset="0.25" tipLeadingOffset="0.25" tipTrailingOffset="0.25" tipPosition="0,1.25,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="1" />
+      </Part>
+      <Part id="19" partType="Wing-3" position="-1.523438,2.577704,0.5976565" rotation="0,0,90" drag="0,0,0,0,0,0" centerOfMass="6.421871E-09,0.05387057,0" materials="12,0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="0.25" rootTrailingOffset="0.25" tipLeadingOffset="0.125" tipTrailingOffset="0.125" tipPosition="0,0.125,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0" />
+      </Part>
+      <Part id="20" partType="Wheel-4" position="-1,2.608954,0.6445315" rotation="0,-1.001791E-05,0" drag="0.203,0.203,0.20264,0.20264,0.2032,0.2007813" materials="0,12,0" disableAircraftCollisions="true" scale="0.7,0.6,0.7">
+        <WingLandingGear.State sensitivity="1" turningEnabled="false" flipped="false" damper="2.5" spring="2.5" />
+        <InputController.State activationGroup="0" invert="false" min="-45" max="45" input="Yaw" zeroOnDeactivate="false" />
+      </Part>
+      <Part id="22" partType="Gun-1" position="-0.5234375,2.577704,0.5976565" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0">
+        <Gun.State ammoCount="200" burstCount="28" timeBetweenBursts="0.5" muzzleVelocity="800" roundsPerSecond="7" spread="1" activationGroup="0" />
+      </Part>
+      <Part id="23" partType="Wing-3" position="2.980232E-08,2.632391,-2.128906" rotation="0,0,180" drag="0,0,0,0,0,0" centerOfMass="-1.115722E-14,0.05387044,0" materials="0,0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="0.25" rootTrailingOffset="0.25" tipLeadingOffset="0.125" tipTrailingOffset="0.125" tipPosition="0,0.125,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0" />
+      </Part>
+      <Part id="24" partType="Gun-1" position="0.5234375,2.577704,0.5976565" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0">
+        <Gun.State ammoCount="200" burstCount="28" timeBetweenBursts="0.5" muzzleVelocity="800" roundsPerSecond="7" spread="1" activationGroup="0" />
+      </Part>
+      <Part id="25" partType="Wing-3" position="0,2.632391,0.7539065" rotation="0,0,180" drag="0,0,0,0,0,0" centerOfMass="-9.824949E-15,0.05387044,0" materials="12,0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="0.25" rootTrailingOffset="0.25" tipLeadingOffset="0.125" tipTrailingOffset="0.125" tipPosition="0,0.125,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0" />
+      </Part>
+      <Part id="28" partType="Pylon-1" position="1.3125,2.452704,0.5976565" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0" scale="0.7,0.7,0.7">
+        <Detacher.State enabled="True" group="2" detachForce="900.0001" detacherUiMaxForce="10000" />
+      </Part>
+      <Part id="29" partType="RocketPod-1" position="1.3125,2.299829,0.5976565" rotation="0,0,0" drag="0.051,0.051,0.053,0.053,0.05497609,0.052" materials="0,12,12" scale="0.7,0.7,0.7">
+        <RocketPod.State activationGroup="0" />
+      </Part>
+      <Part id="30" partType="Missile-Long-1" position="0,2.163454,0.3976565" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0,12,12" scale="0.7,0.7,0.7">
+        <Missile.State activationGroup="0" lockTime="2" maxTargetingAngle="70" maxHeadingAngleAdjustmentRate="10000" />
+        <CameraVantage.State viewMode="None" autoOrient="true" lookAtCockpit="false" autoZoomOnCockpit="false" autoCenterCamera="false" />
+      </Part>
+      <Part id="31" partType="Wing-3" position="0,2.616766,0.6289065" rotation="0,0,180" drag="0,0,0,0,0,0" centerOfMass="-9.824949E-15,0.05387044,0" materials="12,0" scale="1,1,1">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="false" wingPhysicsEnabled="true" rootLeadingOffset="0.25" rootTrailingOffset="0.25" tipLeadingOffset="0.125" tipTrailingOffset="0.125" tipPosition="0,0.125,0" hingeDistance="0.3" allowControlSurfaces="true" fuelPercentage="0" />
+      </Part>
+      <Part id="32" partType="Pylon-1" position="0,2.294891,0.324219" rotation="0,0,0" drag="0.028,0.028,0.028,0.028,0.02624192,0.0261968" materials="0" scale="0.7,0.7,0.7">
+        <Detacher.State enabled="True" group="1" detachForce="1000" detacherUiMaxForce="10000" />
+      </Part>
+      <Part id="33" partType="Pylon-1" position="-1.3125,2.452704,0.5976565" rotation="0,0,0" drag="0,0,0,0,0,0" materials="0" scale="0.7,0.7,0.7">
+        <Detacher.State enabled="True" group="2" detachForce="1000" detacherUiMaxForce="10000" />
+      </Part>
+      <Part id="34" partType="RocketPod-1" position="-1.3125,2.299829,0.5976565" rotation="0,0,0" drag="0.052,0.052,0.05652,0.05652,0.064,0.05032526" materials="0,12,12" scale="0.7,0.7,0.7">
+        <RocketPod.State activationGroup="0" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="2" partB="1" attachPointsA="3" attachPointsB="2" />
+      <Connection partA="9" partB="1" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="3" partB="2" attachPointsA="0" attachPointsB="0" />
+      <Connection partA="4" partB="2" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="9" partB="2" attachPointsA="4" attachPointsB="2" />
+      <Connection partA="10" partB="2" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="11" partB="2" attachPointsA="1,4" attachPointsB="2,2" />
+      <Connection partA="13" partB="2" attachPointsA="0,2" attachPointsB="2,2" />
+      <Connection partA="16" partB="2" attachPointsA="0,1" attachPointsB="2,2" />
+      <Connection partA="18" partB="2" attachPointsA="0,2" attachPointsB="2,2" />
+      <Connection partA="25" partB="2" attachPointsA="0,2" attachPointsB="2,2" />
+      <Connection partA="31" partB="2" attachPointsA="0,2" attachPointsB="2,2" />
+      <Connection partA="5" partB="4" attachPointsA="0,2" attachPointsB="1,1" />
+      <Connection partA="23" partB="4" attachPointsA="0,2" attachPointsB="1,1" />
+      <Connection partA="12" partB="5" attachPointsA="0,2" attachPointsB="1,2" />
+      <Connection partA="8" partB="9" attachPointsA="0" attachPointsB="3" />
+      <Connection partA="11" partB="9" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="17" partB="11" attachPointsA="3" attachPointsB="3" />
+      <Connection partA="14" partB="13" attachPointsA="0,2" attachPointsB="1,2" />
+      <Connection partA="15" partB="13" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="24" partB="13" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="28" partB="13" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="19" partB="18" attachPointsA="0,2" attachPointsB="1,2" />
+      <Connection partA="20" partB="18" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="22" partB="18" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="33" partB="18" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="29" partB="28" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="30" partB="32" attachPointsA="0" attachPointsB="1" />
+      <Connection partA="32" partB="31" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="34" partB="33" attachPointsA="0" attachPointsB="1" />
+    </Connections>
+    <Bodies>
+      <Body partIds="1,2,3,4,9,11,17,10,16" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="5" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="8" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="12" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="13" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="14" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="15" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="18" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="19" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="20" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="22" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="23" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="24" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="25" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="28" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="29" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="30" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="31" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="32" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="33" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+      <Body partIds="34" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="222222" r="0.15" m="0.5" s="0.7" />
+    <Material color="C5C5C5" r="0.3" m="0.5" s="0.83" />
+    <Material color="001F7F" r="0.3" m="0.5" s="0.83" />
+    <Material color="AA2A00" r="0.15" m="0.5" s="0.7" />
+    <Material color="3F3F3F" r="0" m="0.65" s="0.08" />
+    <Material color="5C0000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="FFF0F0" r="0" m="0.65" s="0.08" />
+    <Material color="FF0F0F" r="0" m="0.65" s="0.08" />
+    <Material color="AAAAAA" r="0" m="0.65" s="0.08" />
+    <Material color="3F3F3F" r="0.15" m="0.5" s="0.7" />
+    <Material color="ABABAB" r="0" m="0.65" s="0.08" />
+    <Material color="446677" r="0" m="0.65" s="0.08" />
+    <Material color="FF1143" r="0" m="0.65" s="0.08" />
+    <Material color="FF6A12" r="0" m="0.65" s="0.08" />
+    <Material color="000000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="1E1E1E" r="0" m="0.65" s="0.08" />
+    <Material color="D0D0D0" r="0" m="0.65" s="0.08" />
+  </Theme>
+</Aircraft>
