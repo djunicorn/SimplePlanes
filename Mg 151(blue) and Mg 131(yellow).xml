@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="Mg 151(blue) and Mg 131(yellow)" url="" theme="Default" size="1.96,1.000003,1.499" boundsMin="-1,1.733354,-0.7432501" xmlVersion="6">
+  <Assembly>
+    <Parts>
+      <Part id="1" partType="Cockpit-1" position="-0.7500002,2.483356,-0.24325" rotation="0,0,0" drag="0.1238034,0.1238034,0.262,0.262,0.258,0.258" materials="7,0">
+        <Cockpit.State primaryCockpit="True" />
+      </Part>
+      <Part id="2" partType="Block-1" position="-0.7500002,1.983353,-0.49325" rotation="0,0,0" drag="0.258,0.258,0.262,0.262,0.262,0.262" materials="0">
+        <AdaptiveBlock.State state="217141" />
+      </Part>
+      <Part id="3" partType="Wing-2" position="-0.5000001,1.983353,-0.49325" rotation="0,0,270" drag="0,0,0,0,0,0" centerOfMass="2.980232E-08,0.7500002,0.25" materials="1,2">
+        <FuelTank.State fuel="0" capacity="0" />
+        <Wing.State angleOfAttack="0" airfoil="Symmetric" inverted="true" wingPhysicsEnabled="true" rootLeadingOffset="0.75" rootTrailingOffset="0.25" tipLeadingOffset="0.75" tipTrailingOffset="0.25" tipPosition="0,1.5,0" hingeDistance="0.3" allowControlSurfaces="false" fuelPercentage="0" />
+      </Part>
+      <Part id="4" partType="Gun-1" position="-0.375,1.983353,-0.24325" rotation="0,0,0" drag="0,0,0,0,0,0" materials="14" disableAircraftCollisions="true" scale="1,1,1">
+        <Gun.State ammoCount="475" burstCount="150" timeBetweenBursts="10" muzzleVelocity="750" roundsPerSecond="15" spread="0.5" activationGroup="0" tracerColor="FF0000" lifetime="6" damage="15" impactForce="15" />
+      </Part>
+      <Part id="5" partType="Gun-1" position="0.3749998,1.983353,-0.24325" rotation="0,0,0" drag="0,0,0,0,0,0" materials="7" disableAircraftCollisions="true" scale="1,1,1">
+        <Gun.State ammoCount="250" burstCount="125" timeBetweenBursts="10" muzzleVelocity="800" roundsPerSecond="12.5" spread="0.8" activationGroup="0" tracerColor="FFFFFF" lifetime="8" damage="25" impactForce="25" />
+      </Part>
+    </Parts>
+    <Connections>
+      <Connection partA="2" partB="1" attachPointsA="2" attachPointsB="2" />
+      <Connection partA="3" partB="2" attachPointsA="0" attachPointsB="4" />
+      <Connection partA="4" partB="3" attachPointsA="0" attachPointsB="2" />
+      <Connection partA="5" partB="3" attachPointsA="0" attachPointsB="2" />
+    </Connections>
+    <Bodies>
+      <Body partIds="1,2,3,4,5" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="E9E9E9" r="0.15" m="0.5" s="0.7" />
+    <Material color="000000" r="0.3" m="0.5" s="0.83" />
+    <Material color="001F7F" r="0.3" m="0.5" s="0.83" />
+    <Material color="AA2A00" r="0.15" m="0.5" s="0.7" />
+    <Material color="3F3F3F" r="0" m="0.65" s="0.08" />
+    <Material color="5C0000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="FFF0F0" r="0" m="0.65" s="0.08" />
+    <Material color="FF0F0F" r="0" m="0.65" s="0.08" />
+    <Material color="AAAAAA" r="0" m="0.65" s="0.08" />
+    <Material color="3F3F3F" r="0.15" m="0.5" s="0.7" />
+    <Material color="ABABAB" r="0" m="0.65" s="0.08" />
+    <Material color="446677" r="0" m="0.65" s="0.08" />
+    <Material color="FF1143" r="0" m="0.65" s="0.08" />
+    <Material color="FF6A12" r="0" m="0.65" s="0.08" />
+    <Material color="000000" r="0" m="0.65" s="0.08" />
+    <Material color="FFFFFF" r="0" m="0.65" s="0.08" />
+    <Material color="1E1E1E" r="0" m="0.65" s="0.08" />
+    <Material color="D0D0D0" r="0" m="0.65" s="0.08" />
+  </Theme>
+</Aircraft>
